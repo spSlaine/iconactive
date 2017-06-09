@@ -1,0 +1,30 @@
+{
+  "name": "iconactive",
+  "version": "0.0.1",
+  "description": "Project which enables font icons (such as FontAwesome and Material Design) to be toggled active",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spSlaine/iconactive.git"
+  },
+  "keywords": [
+    "FontAwsome",
+    "Material",
+    "Design",
+    "Icons"
+  ],
+  "author": "Simon Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spSlaine/iconactive/issues"
+  },
+  "homepage": "https://github.com/spSlaine/iconactive#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}

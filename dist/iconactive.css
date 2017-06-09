@@ -1,0 +1,367 @@
+@charset "UTF-8";
+.fa-sticky-note-o.active {
+  position: relative;
+}
+.fa-sticky-note-o.active:before {
+  content: "";
+  color: #f7f702;
+}
+.fa-sticky-note-o.active:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-sticky-note-o.primary {
+  position: relative;
+}
+.fa-sticky-note-o.primary:before {
+  content: "";
+  color: #337ab7;
+}
+.fa-sticky-note-o.primary:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-sticky-note-o.success {
+  position: relative;
+}
+.fa-sticky-note-o.success:before {
+  content: "";
+  color: #5cb85c;
+}
+.fa-sticky-note-o.success:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-sticky-note-o.info {
+  position: relative;
+}
+.fa-sticky-note-o.info:before {
+  content: "";
+  color: #5bc0de;
+}
+.fa-sticky-note-o.info:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-sticky-note-o.warning {
+  position: relative;
+}
+.fa-sticky-note-o.warning:before {
+  content: "";
+  color: #f0ad4e;
+}
+.fa-sticky-note-o.warning:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-sticky-note-o.danger {
+  position: relative;
+}
+.fa-sticky-note-o.danger:before {
+  content: "";
+  color: #d9534f;
+}
+.fa-sticky-note-o.danger:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+
+.fa-user-circle-o.active {
+  position: relative;
+}
+.fa-user-circle-o.active:before {
+  content: "";
+  color: #f7f702;
+}
+.fa-user-circle-o.active:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+.fa-user-circle-o.primary {
+  position: relative;
+}
+.fa-user-circle-o.primary:before {
+  content: "";
+  color: #337ab7;
+}
+.fa-user-circle-o.primary:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+.fa-user-circle-o.success {
+  position: relative;
+}
+.fa-user-circle-o.success:before {
+  content: "";
+  color: #5cb85c;
+}
+.fa-user-circle-o.success:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+.fa-user-circle-o.info {
+  position: relative;
+}
+.fa-user-circle-o.info:before {
+  content: "";
+  color: #5bc0de;
+}
+.fa-user-circle-o.info:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+.fa-user-circle-o.warning {
+  position: relative;
+}
+.fa-user-circle-o.warning:before {
+  content: "";
+  color: #f0ad4e;
+}
+.fa-user-circle-o.warning:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+.fa-user-circle-o.danger {
+  position: relative;
+}
+.fa-user-circle-o.danger:before {
+  content: "";
+  color: #d9534f;
+}
+.fa-user-circle-o.danger:after {
+  left: -2px;
+  position: absolute;
+  content: "";
+}
+
+.fa-smile-o.active {
+  position: relative;
+}
+.fa-smile-o.active:before {
+  content: "";
+  color: #f7f702;
+}
+.fa-smile-o.active:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-smile-o.primary {
+  position: relative;
+}
+.fa-smile-o.primary:before {
+  content: "";
+  color: #337ab7;
+}
+.fa-smile-o.primary:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-smile-o.success {
+  position: relative;
+}
+.fa-smile-o.success:before {
+  content: "";
+  color: #5cb85c;
+}
+.fa-smile-o.success:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-smile-o.info {
+  position: relative;
+}
+.fa-smile-o.info:before {
+  content: "";
+  color: #5bc0de;
+}
+.fa-smile-o.info:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-smile-o.warning {
+  position: relative;
+}
+.fa-smile-o.warning:before {
+  content: "";
+  color: #f0ad4e;
+}
+.fa-smile-o.warning:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-smile-o.danger {
+  position: relative;
+}
+.fa-smile-o.danger:before {
+  content: "";
+  color: #d9534f;
+}
+.fa-smile-o.danger:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+
+.fa-frown-o.active {
+  position: relative;
+}
+.fa-frown-o.active:before {
+  content: "";
+  color: #f7f702;
+}
+.fa-frown-o.active:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-frown-o.primary {
+  position: relative;
+}
+.fa-frown-o.primary:before {
+  content: "";
+  color: #337ab7;
+}
+.fa-frown-o.primary:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-frown-o.success {
+  position: relative;
+}
+.fa-frown-o.success:before {
+  content: "";
+  color: #5cb85c;
+}
+.fa-frown-o.success:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-frown-o.info {
+  position: relative;
+}
+.fa-frown-o.info:before {
+  content: "";
+  color: #5bc0de;
+}
+.fa-frown-o.info:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-frown-o.warning {
+  position: relative;
+}
+.fa-frown-o.warning:before {
+  content: "";
+  color: #f0ad4e;
+}
+.fa-frown-o.warning:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.fa-frown-o.danger {
+  position: relative;
+}
+.fa-frown-o.danger:before {
+  content: "";
+  color: #d9534f;
+}
+.fa-frown-o.danger:after {
+  left: 0;
+  position: absolute;
+  content: "";
+}
+
+.mdi-lightbulb-outline.active {
+  position: relative;
+}
+.mdi-lightbulb-outline.active:before {
+  content: "/F335";
+  color: #f7f702;
+}
+.mdi-lightbulb-outline.active:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+.mdi-lightbulb-outline.primary {
+  position: relative;
+}
+.mdi-lightbulb-outline.primary:before {
+  content: "/F335";
+  color: #337ab7;
+}
+.mdi-lightbulb-outline.primary:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+.mdi-lightbulb-outline.success {
+  position: relative;
+}
+.mdi-lightbulb-outline.success:before {
+  content: "/F335";
+  color: #5cb85c;
+}
+.mdi-lightbulb-outline.success:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+.mdi-lightbulb-outline.info {
+  position: relative;
+}
+.mdi-lightbulb-outline.info:before {
+  content: "/F335";
+  color: #5bc0de;
+}
+.mdi-lightbulb-outline.info:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+.mdi-lightbulb-outline.warning {
+  position: relative;
+}
+.mdi-lightbulb-outline.warning:before {
+  content: "/F335";
+  color: #f0ad4e;
+}
+.mdi-lightbulb-outline.warning:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+.mdi-lightbulb-outline.danger {
+  position: relative;
+}
+.mdi-lightbulb-outline.danger:before {
+  content: "/F335";
+  color: #d9534f;
+}
+.mdi-lightbulb-outline.danger:after {
+  left: 0;
+  position: absolute;
+  content: "/F336";
+}
+
+/*# sourceMappingURL=iconactive.css.map */

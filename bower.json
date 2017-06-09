@@ -1,0 +1,28 @@
+{
+  "name": "iconactive",
+  "description": "Project which enables font icons (such as FontAwesome and Material Design) to be toggled active",
+  "main": "index.js",
+  "authors": [
+    "Simon Phillips"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "FontAwsome",
+    "Material",
+    "Design",
+    "Icons"
+  ],
+  "homepage": "https://github.com/spSlaine/iconactive",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "font-awsome#^4.7.0",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "mdi": "^1.9.33"
+  }
+}

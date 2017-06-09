@@ -1,0 +1,56 @@
+﻿@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "bower_components/font-awesome/scss/variables";
+
+@import "bower_components/mdi/scss/variables";
+
+$highlight: #f7f702 !default;
+
+@mixin allhighlighted($outline, $solid, $adjustment: 0) {
+    @include highlighted($outline, $solid, ".active", $highlight, $adjustment);
+    @include highlighted($outline, $solid, ".primary", $brand-primary, $adjustment);
+    @include highlighted($outline, $solid, ".success", $brand-success, $adjustment);
+    @include highlighted($outline, $solid, ".info", $brand-info, $adjustment);
+    @include highlighted($outline, $solid, ".warning", $brand-warning, $adjustment);
+    @include highlighted($outline, $solid, ".danger", $brand-danger, $adjustment);
+}
+
+@mixin highlighted($outline, $solid, $selector, $color, $adjustment: 0) {
+
+    &#{$selector} {
+        position: relative;
+
+        &:before {
+            content: $solid;
+            color: $color;
+        }
+
+        &:after {
+            left: $adjustment;
+            position: absolute;
+            content: $outline
+        }
+    }
+}
+
+
+.#{$fa-css-prefix}-sticky-note-o {
+    @include allhighlighted($fa-var-sticky-note-o, $fa-var-sticky-note);
+}
+
+.#{$fa-css-prefix}-user-circle-o {
+    @include allhighlighted($fa-var-user-circle-o, $fa-var-circle, -2px);
+}
+
+.#{$fa-css-prefix}-smile-o {
+    @include allhighlighted($fa-var-smile-o, $fa-var-circle);
+}
+
+
+.#{$fa-css-prefix}-frown-o {
+    @include allhighlighted($fa-var-frown-o, $fa-var-circle);
+}
+
+
+.#{$mdi-css-prefix}-lightbulb-outline {
+    @include allhighlighted("/F336", "/F335");
+}
